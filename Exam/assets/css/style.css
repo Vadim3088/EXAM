@@ -201,9 +201,6 @@ img {
 }
 .sidemenu li a:hover {
   text-decoration: none;
-  /*&::before {
-      width: 100%;
-  }*/
 }
 .sidemenu li a:hover:after {
   width: 100%;
@@ -513,7 +510,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  padding: 100px 0;
+  padding: 23vh 0 12vh 0;
 }
 .section_block .spain_block .container {
   display: flex;
@@ -582,7 +579,7 @@ img {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 10vh 0;
+  padding: 20vh 0;
   position: relative;
 }
 .reviews_block::after {

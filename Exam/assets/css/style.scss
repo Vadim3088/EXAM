@@ -83,7 +83,6 @@ img {
     position: fixed;
     top: 0;
     left: -500px;
-    //left: -110%;
     background-color: rgba($color_blue, 0.8);
     height: 100vh;
     width: 100%;
@@ -147,25 +146,16 @@ img {
                 height: 100%;
                 bottom: 0px;
                 left: 0;
-                //transform: translateX(-50%);
                 transition: all .3s ease;
             }
 
             &:hover {
                 text-decoration: none;
-                //background-color: rgb(219, 219, 219);
-
-                /*&::before {
-                    width: 100%;
-                }*/
-
                 &:after {
                     width: 100%;
-                    //opacity: .1;
                 }
             }
             &:active {
-                //background-color: $color_orange;
                 opacity: .5;
             }
         }
@@ -197,7 +187,6 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     height: 740px;
-    //height: calc(100vh - 80px);
     display: flex;
     align-items: center;
 
@@ -483,7 +472,7 @@ img {
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        padding: 100px 0;
+        padding: 23vh 0 12vh 0;
 
         .container {
             display: flex;
@@ -546,7 +535,7 @@ img {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10vh 0;
+    padding: 20vh 0;
     position: relative;
 
     &::after {
