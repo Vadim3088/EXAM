@@ -241,18 +241,11 @@ img {
   align-items: center;
   height: 100%;
 }
-.search_block .header_form h1 {
-  color: #fff;
-  font-size: 3.25rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
 .search_block .header_form h3 {
   color: #fff;
   font-weight: 300;
   font-size: 1.5rem;
-  letter-spacing: 6px;
+  letter-spacing: 6.2px;
   line-height: 50px;
   margin-bottom: 30px;
 }
@@ -654,14 +647,17 @@ footer {
 footer .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 100%;
 }
-footer .container .footer_logo {
-  padding-bottom: 15px;
+footer .container .footer_items {
+  margin-top: 30px;
 }
-footer .container h3 {
+footer .container .footer_items .footer_logo {
+  padding: 15px 0;
+}
+footer .container .footer_items h3 {
   color: #fff;
   font-weight: 300;
   letter-spacing: 0.4px;
@@ -670,12 +666,18 @@ footer .container h3 {
 footer .container .footer_icons {
   text-align: center;
 }
-footer .container .footer_icons span {
-  color: #fff;
-  cursor: pointer;
-  margin-right: 15px;
+footer .container .footer_icons ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
 }
-footer .container .footer_icons span:hover {
+footer .container .footer_icons ul li a {
+  text-decoration: none;
+}
+footer .container .footer_icons ul li a span {
+  color: #fff;
+}
+footer .container .footer_icons ul li a span:hover {
   color: #5474fd;
 }
 footer .container .footer_icons .icon-facebook:before {
