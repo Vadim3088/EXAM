@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @mixin fz($size_px) {
     font-size: ($size_px/$base_size)+rem;
 }
@@ -115,11 +122,15 @@ $base_size:16;
             .choose_block_right {
                 width: 50%;
                 .img_block_top {
-                    align-self: center;
+                    -ms-flex-item-align: center;
+                        -ms-grid-row-align: center;
+                        align-self: center;
                     width: 80%;
                 }
                 .img_block_bottom {
-                    align-self: center;
+                    -ms-flex-item-align: center;
+                        -ms-grid-row-align: center;
+                        align-self: center;
                     width: 80%;
                 }
             }
@@ -152,7 +163,9 @@ $base_size:16;
     .section_block {
         .spain_block {
             .container {
-                justify-content: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
                 .spain_block_content {
                     width: 75%;
                     .spain_block_text {
@@ -203,9 +216,16 @@ $base_size:16;
     }
     .choose_block {
         .choose_block_top {
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             gap: 30px;
             .choose_block_left {
                 width: 100%;
@@ -223,7 +243,10 @@ $base_size:16;
             }
             .choose_block_right {
                 width: 100%;
-                flex-direction: row;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
             }
         }
     }
@@ -271,7 +294,10 @@ $base_size:16;
     .reviews_block {
         .container {
             .reviews_block_center {
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 .reviews_block_img {
                     width: 100%;
                 }
@@ -347,7 +373,10 @@ $base_size:16;
         .container {
             .header_form {
                 .header_search_form {
-                    flex-direction: column;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     gap: 10px;
                     .search_form {
                         .form {
@@ -364,9 +393,16 @@ $base_size:16;
     }
     .choose_block {
         .choose_block_top {
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             gap: 30px;
             .choose_block_left {
                 width: 100%;
@@ -384,8 +420,13 @@ $base_size:16;
             }
             .choose_block_right {
                 width: 100%;
-                flex-direction: column;
-                justify-content: space-between;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
                 gap: 10px;
             }
         }
@@ -436,6 +477,7 @@ $base_size:16;
         }
     }
 }
+
 
 @media screen and (max-width:400px) {
     .search_block {

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @import "hamburger";
 
 @mixin p ($color) {
@@ -20,12 +27,15 @@
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
+    background-image: -o-linear-gradient(45deg, #496bfe 50%, transparent 50%);
     background-image: linear-gradient(45deg, #496bfe 50%, transparent 50%);
     background-position: 55%;
     background-size: 400%;
 
     &:hover {
         background-position: 0;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
         transition: all .5s ease;
     }
 }
@@ -46,7 +56,8 @@ $color_red:#ff6363;
 *:after {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html,
@@ -86,8 +97,11 @@ img {
     background-color: rgba($color_blue, 0.8);
     height: 100vh;
     width: 100%;
-    box-shadow: 0 0 15px #000;
+    -webkit-box-shadow: 0 0 15px #000;
+            box-shadow: 0 0 15px #000;
     max-width: 400px;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
     transition: all .4s ease;
     z-index: 1000;
 
@@ -100,21 +114,34 @@ img {
 
 #sidemenu_top {
     padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 
     .mobile_logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 100%;
 
         a {
             text-align: center;
             padding: 20px 0;
             img {
-                width: 50%;
+                width: 100%;
             }
         }
     }
@@ -146,6 +173,8 @@ img {
                 height: 100%;
                 bottom: 0px;
                 left: 0;
+                -webkit-transition: all .3s ease;
+                -o-transition: all .3s ease;
                 transition: all .3s ease;
             }
 
@@ -179,7 +208,8 @@ img {
     height: 100%;
     background-color: rgba(0, 0, 0, .7);
     z-index: 999;
-    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
 }
 
 .search_block {
@@ -187,14 +217,27 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     height: 740px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
     .header_form {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: 100%;
 
         h3 {
@@ -207,9 +250,15 @@ img {
         }
 
         .header_search_form {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             margin-bottom: 100px;
 
             .search_form {
@@ -230,9 +279,15 @@ img {
                 width: 150px;
                 height: 60px;
                 border: 2px solid #fff;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                justify-content: center;
-                align-items: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 background-image: none;
 
                 svg {
@@ -256,7 +311,9 @@ img {
                 border-width: 0 1px 1px 0;
                 display: inline-block;
                 padding: 4px;
-                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                        transform: rotate(45deg);
             }
         }
     }
@@ -269,20 +326,29 @@ img {
 
     &.scrolled {
         position: fixed;
+        -webkit-transition: all .2s ease;
+        -o-transition: all .2s ease;
         transition: all .2s ease;
         width: 100%;
         left: 0;
         top: 0;
         z-index: 100;
         background-color: rgba($color_blue, 0.7);
-        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+                backdrop-filter: blur(20px);
     }
 
     .container {
         height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
 
         #logo {
             width: 20%;
@@ -297,9 +363,15 @@ img {
         #header_menu {
             ul {
                 list-style: none;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                justify-content: flex-end;
-                align-items: center;
+                -webkit-box-pack: end;
+                    -ms-flex-pack: end;
+                        justify-content: flex-end;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
 
                 li {
                     +li {
@@ -352,8 +424,12 @@ img {
     }
 
     .choose_block_top {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         width: 100%;
 
         .choose_block_left {
@@ -384,20 +460,29 @@ img {
 
         .choose_block_right {
             width: 48%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             gap: 5px;
             z-index: 2;
 
             .img_block_top {
-                width: calc(100% - 110px);
-                align-self: flex-start;
+                width: calc(100% - 115px);
+                -ms-flex-item-align: start;
+                    align-self: flex-start;
             }
 
             .img_block_bottom {
-                width: calc(100% - 110px);
-                align-self: flex-end;
+                width: calc(100% - 115px);
+                -ms-flex-item-align: end;
+                    align-self: flex-end;
             }
         }
     }
@@ -408,21 +493,40 @@ img {
     background-color: $color_grey;
 
     .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .dotten_arc {
         width: 70%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
 
         .image_arc {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             width: 100%;
             svg {
                 width: 270px;
@@ -432,16 +536,29 @@ img {
     }
 
     .choose_block_icons {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
         width: 100%;
 
         .image_link {
             width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             gap: 15px;
 
             svg {
@@ -467,13 +584,18 @@ img {
         padding: 23vh 0 12vh 0;
 
         .container {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: flex-start;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
 
             .spain_block_content {
-                width: 45%;
+                width: 49%;
+                padding: 50px 30px;
                 color: $color_white;
-                padding: 60px 20px;
+               
                 position: relative;
 
                 &::after {
@@ -482,7 +604,7 @@ img {
                     width: 100%;
                     height: 100%;
                     background-color: $color_grey;
-                    opacity: .8;
+                    opacity: .9;
                     top: 0;
                     left: 0;
                     z-index: 0;
@@ -491,16 +613,19 @@ img {
                 .spain_block_text {
                     position: relative;
                     z-index: 10;
+                    
 
                     span {
                         @include fz(20);
                         display: inline-block;
+                        font-weight: 300;
                     }
 
                     h3 {
                         text-transform: uppercase;
-                        font-weight: 400;
+                        
                         line-height: 56px;
+                        font-weight: 300;
                     }
 
                     .btn_blue {
@@ -509,7 +634,9 @@ img {
 
                     p {
                         line-height: 24px;
-                        padding: 10px 0;
+                        font-weight: 300;
+                        line-height: 24px;
+                        margin-bottom: 40px;
                     }
                 }
             }
@@ -518,7 +645,9 @@ img {
 
     .spain_block_bottom {
         .container {
-            justify-content: flex-end;
+            -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
         }
     }
 }
@@ -527,7 +656,7 @@ img {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 20vh 0;
+    padding: 15vh 0 20vh 0;
     position: relative;
 
     &::after {
@@ -547,7 +676,7 @@ img {
         text-align: center;
         color: $color_white;
         z-index: 2;
-        padding-bottom: 40px;
+        padding-bottom: 90px;
 
         h2 {
             line-height: 80px;
@@ -556,14 +685,18 @@ img {
     }
 
     .reviews_block_center {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         position: relative;
         z-index: 2;
         width: 100%;
 
         .reviews_block_img {
-            width: 35%;
+            width: 40%;
             img {
                 width: 100%;
                 height: 100%;
@@ -571,11 +704,18 @@ img {
         }
 
         .reviws_block_text {
-            width: 65%;
+            width: 60%;
             background-color: $color_grey;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             padding: 40px 40px;
 
             span {
@@ -598,6 +738,7 @@ img {
                 p {
                     @include p($color_white);
                     display: inline;
+                    line-height: 30px;
                 }
             }
         }
@@ -609,10 +750,19 @@ footer {
     background-color: $color_grey;
 
     .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: 100%;
         .footer_items {
             margin-top: 30px;
@@ -670,62 +820,3 @@ footer {
 }
 
 
-
-/*.choose_block2 {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 10vh 0;
-    //position: relative;
-
-
-
-    .choose_block_top {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-
-        .choose_block_left {
- 
-            width: 100%;
-            color: $color_white;
-            z-index: 2;
-
-            h2 {
-                @include fz(36);
-                padding: 70px 0 45px 0;
-            }
-
-            .choose_text {
-                padding-bottom: 25px;
-
-                p {
-                    padding: 13px 0;
-                    line-height: 28px;
-                    letter-spacing: 2px;
-                    font-weight: 300;
-                }
-            }
-
-            .btn_blue {
-                @include btn($color_blue);
-            }
-        }
-
-        .choose_block_right {
-            display: grid;
-            grid-template-columns: 1fr 40% 1fr;
-            
-
-            .img_block_top {
-                grid-area: span 1/ span 2;
-                
-            }
-
-            .img_block_bottom {
-                grid-area: span 2/ span 3;
-                
-            }
-        }
-    }
-}*/
