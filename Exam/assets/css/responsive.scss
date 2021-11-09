@@ -485,7 +485,6 @@ $base_size:16;
             .header_form {
                 h3 {
                     @include fz(24);
-                    letter-spacing: 5.5px;
                     line-height: 50px;
                     margin-bottom: 20px; 
                 }

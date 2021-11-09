@@ -5,12 +5,6 @@
 * Autoprefixer: v10.3.1
 * Browsers: last 4 version
 */
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
 .hamburger {
   padding: 15px 15px;
   display: inline-block;
@@ -313,11 +307,26 @@ img {
   align-items: center;
   height: 100%;
 }
-.search_block .header_form h3 {
+.search_block .header_form .header_form_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.search_block .header_form .header_form_logo #logo {
+  width: 100%;
+}
+.search_block .header_form .header_form_logo h3 {
   color: #fff;
   font-weight: 300;
   font-size: 1.5rem;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
   line-height: 50px;
   margin-bottom: 30px;
 }
