@@ -309,13 +309,15 @@
   }
 }
 @media screen and (max-width: 400px) {
-  .search_block .container .header_form h3 {
+  .search_block .container .header_form .header_form_logo h3 {
     font-size: 1.5rem;
     line-height: 50px;
     margin-bottom: 20px;
+    letter-spacing: 4px;
+    text-align: center;
   }
   .search_block .container .header_form .header_search_form .search_form .form {
-    width: 320px;
+    width: 300px;
     height: 40px;
   }
   .search_block .container .header_form .header_search_form .btn_search {

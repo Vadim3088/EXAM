@@ -483,15 +483,20 @@ $base_size:16;
     .search_block {
         .container {
             .header_form {
-                h3 {
-                    @include fz(24);
-                    line-height: 50px;
-                    margin-bottom: 20px; 
+                .header_form_logo {
+                    h3 {
+                        @include fz(24);
+                        line-height: 50px;
+                        margin-bottom: 20px;
+                        letter-spacing: 4px; 
+                        text-align: center;
+                    }
                 }
+                
                 .header_search_form {
                     .search_form {
                         .form {
-                            width: 320px;
+                            width: 300px;
                             height: 40px;
                         }
                     }
