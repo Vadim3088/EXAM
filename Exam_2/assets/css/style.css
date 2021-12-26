@@ -463,45 +463,45 @@ img {
   padding: 3px;
   transform: rotate(45deg);
 }
-.works {
+.projects {
   padding: 10vh 0 15vh 0;
 }
-.works .container_works {
+.projects .container_projects {
   width: 90%;
   max-width: 1685px;
   margin: 0 auto;
   position: relative;
 }
-.works .container_works .bg_img_top_works {
+.projects .container_projects .bg_img_top_projects {
   position: relative;
   top: 180px;
 }
-.works .container_works .bg_img_top_works .img_1_bg_left_top_part_works {
+.projects .container_projects .bg_img_top_projects .img_1_bg_left_top_part_projects {
   position: absolute;
   z-index: 2;
   left: 0;
 }
-.works .container_works .container {
+.projects .container_projects .container {
   width: 100%;
   position: relative;
 }
-.works .container_works .container .content_works {
+.projects .container_projects .container .content_projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.works .container_works .container .content_works .text_works {
+.projects .container_projects .container .content_projects .text_projects {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 110px;
 }
-.works .container_works .container .content_works .text_works .works_line {
+.projects .container_projects .container .content_projects .text_projects .projects_line {
   border: 1px solid #2C4058;
   width: 90px;
 }
-.works .container_works .container .content_works .text_works h2 {
+.projects .container_projects .container .content_projects .text_projects h2 {
   color: #2C4058;
   font-family: "Montserrat";
   font-size: 2.75rem;
@@ -510,17 +510,17 @@ img {
   text-transform: uppercase;
   line-height: 120px;
 }
-.works .container_works .container .content_works .top_part_works {
+.projects .container_projects .container .content_projects .top_part_projects {
   display: flex;
   justify-content: space-between;
   margin-bottom: 230px;
 }
-.works .container_works .container .content_works .top_part_works .left_top_part_works .img_1_left_top_part_works {
+.projects .container_projects .container .content_projects .top_part_projects .left_top_part_projects .img_1_left_top_part_projects {
   position: absolute;
   left: 0;
   z-index: 3;
 }
-.works .container_works .container .content_works .top_part_works .right_top_part_works {
+.projects .container_projects .container .content_projects .top_part_projects .right_top_part_projects {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -528,14 +528,14 @@ img {
   justify-content: end;
   margin-top: 90px;
 }
-.works .container_works .container .content_works .top_part_works .right_top_part_works .first_p_works {
+.projects .container_projects .container .content_projects .top_part_projects .right_top_part_projects .first_p_projects {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.375rem;
   color: #2C4058;
   text-align: left;
 }
-.works .container_works .container .content_works .top_part_works .right_top_part_works h2 {
+.projects .container_projects .container .content_projects .top_part_projects .right_top_part_projects h2 {
   color: #2C4058;
   font-family: "Montserrat";
   font-size: 2.75rem;
@@ -546,7 +546,7 @@ img {
   text-align: left;
   font-size: 2.625rem;
 }
-.works .container_works .container .content_works .top_part_works .right_top_part_works .second_p_works {
+.projects .container_projects .container .content_projects .top_part_projects .right_top_part_projects .second_p_projects {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
@@ -555,7 +555,7 @@ img {
   color: #2C4058;
   text-align: left;
 }
-.works .container_works .container .content_works .top_part_works .right_top_part_works .btn_works {
+.projects .container_projects .container .content_projects .top_part_projects .right_top_part_projects .btn_projects {
   background-color: #fff;
   width: 190px;
   height: 50px;
@@ -568,7 +568,7 @@ img {
   cursor: pointer;
   margin-bottom: 60px;
 }
-.works .container_works .container .content_works .top_part_works .right_top_part_works .btn_works:hover {
+.projects .container_projects .container .content_projects .top_part_projects .right_top_part_projects .btn_projects:hover {
   transform: scale(1.05);
   transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
   box-shadow: 0 0 40px 40px #55B7FF inset;
@@ -576,15 +576,15 @@ img {
   border: 1px solid #fff;
   font-weight: 700;
 }
-.works .container_works .container .content_works .top_part_works .right_top_part_works .location {
+.projects .container_projects .container .content_projects .top_part_projects .right_top_part_projects .location {
   display: flex;
   align-items: center;
 }
-.works .container_works .container .content_works .top_part_works .right_top_part_works .location svg {
+.projects .container_projects .container .content_projects .top_part_projects .right_top_part_projects .location svg {
   width: 15px;
   height: 15px;
 }
-.works .container_works .container .content_works .top_part_works .right_top_part_works .location .third_p_works {
+.projects .container_projects .container .content_projects .top_part_projects .right_top_part_projects .location .third_p_projects {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-style: italic;
@@ -592,11 +592,11 @@ img {
   margin-left: 10px;
   text-align: left;
 }
-.works .container_works .container .content_works .bottom_part_works {
+.projects .container_projects .container .content_projects .bottom_part_projects {
   display: flex;
   justify-content: space-between;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -604,14 +604,14 @@ img {
   justify-content: end;
   margin-top: 90px;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works .first_p_works {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects .first_p_projects {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.375rem;
   color: #2C4058;
   text-align: left;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works h2 {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects h2 {
   color: #2C4058;
   font-family: "Montserrat";
   font-size: 2.75rem;
@@ -622,7 +622,7 @@ img {
   text-align: left;
   font-size: 2.625rem;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works .second_p_works {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects .second_p_projects {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
@@ -630,7 +630,7 @@ img {
   margin-bottom: 30px;
   color: #2C4058;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works .btn_works {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects .btn_projects {
   background-color: #fff;
   width: 190px;
   height: 50px;
@@ -643,7 +643,7 @@ img {
   cursor: pointer;
   margin-bottom: 60px;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works .btn_works:hover {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects .btn_projects:hover {
   transform: scale(1.05);
   transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
   box-shadow: 0 0 40px 40px #55B7FF inset;
@@ -651,18 +651,18 @@ img {
   border: 1px solid #fff;
   font-weight: 700;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works .btn_works:hover {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects .btn_projects:hover {
   box-shadow: 0 0 40px 40px #7E5AFF inset;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works .location {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects .location {
   display: flex;
   align-items: center;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works .location svg {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects .location svg {
   width: 15px;
   height: 15px;
 }
-.works .container_works .container .content_works .bottom_part_works .left_bottom_part_works .location .third_p_works {
+.projects .container_projects .container .content_projects .bottom_part_projects .left_bottom_part_projects .location .third_p_projects {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-style: italic;
@@ -670,15 +670,15 @@ img {
   margin-left: 10px;
   text-align: left;
 }
-.works .container_works .container .content_works .bottom_part_works .right_bottom_part_works .img_2_bg_right_bottom_part_works {
+.projects .container_projects .container .content_projects .bottom_part_projects .right_bottom_part_projects .img_2_bg_right_bottom_part_projects {
   position: absolute;
   right: 0;
   z-index: 3;
 }
-.works .container_works .bg_img_bottom_works {
+.projects .container_projects .bg_img_bottom_projects {
   position: relative;
 }
-.works .container_works .bg_img_bottom_works .img_2_bg_right_bottom_part_works {
+.projects .container_projects .bg_img_bottom_projects .img_2_bg_right_bottom_part_projects {
   position: absolute;
   z-index: 2;
   right: 0;

@@ -5,44 +5,44 @@
 $base_size:16;
 
 @media screen and (max-width:1400px){
-    .works {
+    .projects {
         padding: 8vh 0 7vh 0;
-        .container_works {            
-            .bg_img_top_works {                           
-                .img_1_bg_left_top_part_works {
+        .container_projects {            
+            .bg_img_top_projects {                           
+                .img_1_bg_left_top_part_projects {
                     width: 40%;
                     img {                        
                     }
                 }
             }
             .container {
-                .content_works {
-                    .top_part_works {
-                        .left_top_part_works {
-                            .img_1_left_top_part_works {
+                .content_projects {
+                    .top_part_projects {
+                        .left_top_part_projects {
+                            .img_1_left_top_part_projects {
                                 width: 40%;
                                 left: 80px;
                                 img {                                    
                                 }
                             }
                         }
-                        .right_top_part_works {
+                        .right_top_part_projects {
                             width: 53%;
                             margin-top: 0;
                             padding-right: 80px;
                             padding-left: 50px;
-                            .first_p_works {                                
+                            .first_p_projects {                                
                             }
                             h2 {
                                 @include fz(40);
                             }
-                            .btn_works {
+                            .btn_projects {
                                 margin-bottom: 30px;
                             }
                         }
                     }
-                    .bottom_part_works {
-                        .left_bottom_part_works {
+                    .bottom_part_projects {
+                        .left_bottom_part_projects {
                             width: 53%;
                             margin-top: 0;
                             padding-right: 50px;
@@ -50,12 +50,12 @@ $base_size:16;
                             h2 {
                                 @include fz(40);
                             }
-                            .btn_works {
+                            .btn_projects {
                                 margin-bottom: 30px;
                             }
                         }
-                        .right_bottom_part_works  {
-                            .img_2_bg_right_bottom_part_works {
+                        .right_bottom_part_projects  {
+                            .img_2_bg_right_bottom_part_projects {
                                 width: 40%;
                                 right: 80px;
                                 img {
@@ -65,9 +65,9 @@ $base_size:16;
                     }
                 }
             }
-            .bg_img_bottom_works {
+            .bg_img_bottom_projects {
                 
-                .img_2_bg_right_bottom_part_works {                    
+                .img_2_bg_right_bottom_part_projects {                    
                     top: -370px;
                     width: 40%;
                     img {                                               
@@ -123,27 +123,27 @@ $base_size:16;
         }
     }    
 
-    .works {
+    .projects {
         padding: 8vh 0 5vh 0;
-        .container_works {
+        .container_projects {
             width: 100%;           
-            .bg_img_top_works {
+            .bg_img_top_projects {
                 display: none;
             }
             .container {
-                .content_works {
-                    .text_works {
+                .content_projects {
+                    .text_projects {
                         
-                        .works_line {
+                        .projects_line {
 
                         }
                         h2 {
                         
                         }
                     }
-                    .top_part_works {
-                        .left_top_part_works {                            
-                            .img_1_left_top_part_works {
+                    .top_part_projects {
+                        .left_top_part_projects {                            
+                            .img_1_left_top_part_projects {
                                 width: 42%;
                                 top: 250px;;
                                 img {
@@ -151,49 +151,49 @@ $base_size:16;
                                 }
                             }
                         }
-                        .right_top_part_works {
+                        .right_top_part_projects {
                             width: 53%;
                             margin-top: 0;
                             padding-right: 10px;
                             padding-left: 70px;
-                            .first_p_works {  
+                            .first_p_projects {  
                                 @include fz(18);                              
                             }
                             h2 {
                                 @include fz(30);
                                 margin-bottom: 10px;
                             }
-                            .btn_works {
+                            .btn_projects {
                                 margin-bottom: 20px;
                                 width: 140px;
                                 height: 40px;
                             }
                         }
                     }
-                    .bottom_part_works {
+                    .bottom_part_projects {
                         align-items: center;
-                        .left_bottom_part_works {
+                        .left_bottom_part_projects {
                             width: 53%;
                             padding-right: 70px;
                             padding-left: 50px;
-                            .first_p_works {
+                            .first_p_projects {
                                 @include fz(18);
                             }
                             h2 {
                                 @include fz(30);
                                 margin-bottom: 10px;
                             }
-                            .second_p_works {
+                            .second_p_projects {
                                
                             }
-                            .btn_works {
+                            .btn_projects {
                                 margin-bottom: 20px;
                                 width: 140px;
                                 height: 40px;
                             }
                         }
-                        .right_bottom_part_works  {
-                            .img_2_bg_right_bottom_part_works {
+                        .right_bottom_part_projects  {
+                            .img_2_bg_right_bottom_part_projects {
                                 width: 42%;
                                 bottom: 0;
                                 img {
@@ -204,7 +204,7 @@ $base_size:16;
                     }
                 }
             }
-            .bg_img_bottom_works {
+            .bg_img_bottom_projects {
                 display: none;
             }
         }
@@ -270,35 +270,35 @@ $base_size:16;
         }
     }
 
-    .works {
+    .projects {
         padding: 8vh 0 5vh 0;
-        .container_works {
+        .container_projects {
             width: 100%;           
-            .bg_img_top_works {
+            .bg_img_top_projects {
                 display: none;
             }
             .container {
                 position: static;
-                .content_works {
-                    .text_works {
+                .content_projects {
+                    .text_projects {
                         margin-bottom: 50px;
-                        .works_line {
+                        .projects_line {
 
                         }
                         h2 {
                         
                         }
                     }
-                    .top_part_works {
+                    .top_part_projects {
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
                         margin-bottom: 60px;
-                        .left_top_part_works {
+                        .left_top_part_projects {
                             display: flex;
                             justify-content: center;
                             margin-bottom: 30px;   
-                            .img_1_left_top_part_works {
+                            .img_1_left_top_part_projects {
                                 width: 90%;                                
                                 position: static;
                                 img {
@@ -306,55 +306,55 @@ $base_size:16;
                                 }
                             }
                         }
-                        .right_top_part_works {
+                        .right_top_part_projects {
                             width: 90%;
                             justify-content: start;
                             align-items: flex-start;
                             padding: 0 0;
-                            .first_p_works {  
+                            .first_p_projects {  
                                 @include fz(18);                              
                             }
                             h2 {
                                 @include fz(30);
                                 margin-bottom: 10px;
                             }
-                            .btn_works {
+                            .btn_projects {
                                 margin-bottom: 20px;
                                 width: 140px;
                                 height: 40px;
                             }
                         }
                     }
-                    .bottom_part_works {
+                    .bottom_part_projects {
                         flex-direction: column-reverse;
                         justify-content: center;
                         align-items: center;
-                        .left_bottom_part_works {
+                        .left_bottom_part_projects {
                             width: 90%;
                             justify-content: start;
                             align-items: flex-start;
                             padding: 0 0;
-                            .first_p_works {
+                            .first_p_projects {
                                 @include fz(18);
                             }
                             h2 {
                                 @include fz(30);
                                 margin-bottom: 10px;
                             }
-                            .second_p_works {
+                            .second_p_projects {
                                
                             }
-                            .btn_works {
+                            .btn_projects {
                                 margin-bottom: 20px;
                                 width: 140px;
                                 height: 40px;
                             }
                         }
-                        .right_bottom_part_works {
+                        .right_bottom_part_projects {
                             display: flex;
                             justify-content: center;
                             margin-bottom: 30px;
-                            .img_2_bg_right_bottom_part_works {
+                            .img_2_bg_right_bottom_part_projects {
                                 width: 90%;
                                 position: static;
                                 img {
@@ -365,7 +365,7 @@ $base_size:16;
                     }
                 }
             }
-            .bg_img_bottom_works {
+            .bg_img_bottom_projects {
                 display: none;
             }
         }
@@ -621,35 +621,35 @@ $base_size:16;
         }
     }
 
-    .works {
+    .projects {
         padding: 8vh 0 5vh 0;
-        .container_works {
+        .container_projects {
             width: 100%;           
-            .bg_img_top_works {
+            .bg_img_top_projects {
                 display: none;
             }
             .container {
                 position: static;
-                .content_works {
-                    .text_works {
+                .content_projects {
+                    .text_projects {
                         margin-bottom: 30px;
-                        .works_line {
+                        .projects_line {
 
                         }
                         h2 {
                         @include fz(40);
                         }
                     }
-                    .top_part_works {
+                    .top_part_projects {
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
                         margin-bottom: 60px;
-                        .left_top_part_works {
+                        .left_top_part_projects {
                             display: flex;
                             justify-content: center;
                             margin-bottom: 30px;   
-                            .img_1_left_top_part_works {
+                            .img_1_left_top_part_projects {
                                 width: 80%;                                
                                 position: static;
                                 img {
@@ -657,55 +657,55 @@ $base_size:16;
                                 }
                             }
                         }
-                        .right_top_part_works {
+                        .right_top_part_projects {
                             width: 90%;
                             justify-content: start;
                             align-items: flex-start;
                             padding: 0 0;
-                            .first_p_works {  
+                            .first_p_projects {  
                                 @include fz(18);                              
                             }
                             h2 {
                                 @include fz(30);
                                 margin-bottom: 10px;
                             }
-                            .btn_works {
+                            .btn_projects {
                                 margin-bottom: 20px;
                                 width: 140px;
                                 height: 40px;
                             }
                         }
                     }
-                    .bottom_part_works {
+                    .bottom_part_projects {
                         flex-direction: column-reverse;
                         justify-content: center;
                         align-items: center;
-                        .left_bottom_part_works {
+                        .left_bottom_part_projects {
                             width: 90%;
                             justify-content: start;
                             align-items: flex-start;
                             padding: 0 0;
-                            .first_p_works {
+                            .first_p_projects {
                                 @include fz(18);
                             }
                             h2 {
                                 @include fz(30);
                                 margin-bottom: 10px;
                             }
-                            .second_p_works {
+                            .second_p_projects {
                                
                             }
-                            .btn_works {
+                            .btn_projects {
                                 margin-bottom: 20px;
                                 width: 140px;
                                 height: 40px;
                             }
                         }
-                        .right_bottom_part_works {
+                        .right_bottom_part_projects {
                             display: flex;
                             justify-content: center;
                             margin-bottom: 30px;
-                            .img_2_bg_right_bottom_part_works {
+                            .img_2_bg_right_bottom_part_projects {
                                 width: 80%;
                                 position: static;
                                 img {
@@ -716,7 +716,7 @@ $base_size:16;
                     }
                 }
             }
-            .bg_img_bottom_works {
+            .bg_img_bottom_projects {
                 display: none;
             }
         }

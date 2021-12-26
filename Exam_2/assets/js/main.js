@@ -1,4 +1,4 @@
-//Slider
+//Slider header
 
 $(document).ready(function () {
     $('.header_slider').slick({
@@ -46,7 +46,7 @@ lightGallery(document.getElementById('animated-thumbnails-gallery'), {
     speed: 500
 });
 
-//NEWS SLIDER
+//News slider
 
 function latestNews(){
     $.ajax({
@@ -118,7 +118,7 @@ $(function(){
     });
 });
 
-//MAP
+//Map
 
 $(function(){
     $("#init_map").on('click', function(){
@@ -138,7 +138,7 @@ $(function(){
     L.marker([48.93859768728371, 38.512547728855246], {icon:myIcon}).addTo(map)
         .bindPopup(`
             <div class="map_popup">
-                <img src="assets/images/Building_3.png" alt="">
+                <img src="assets/images/Building_3-min.png" alt="">
                 <div class="map_info">
                     <b>Hello!</b>
                     <span>I'm here!</span>
@@ -163,15 +163,13 @@ $(function(){
         let text = encodeURI("<b>Name:</b> "+$("#inputName").val()+"<b>Email:</b>" +$("#inputEmail").val());
 
         $.get(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=`+text+`&parse_mode=html`, (json)=>{
-        
+            console.log(json);
             if (json.ok){
                 $("#contact_form").trigger('reset');
-                alert('Message successfully send!');
+                alert('Message successfully send!', true);
             } else {
-                alert(json.description);
+                alert(json.description, true);
             }
         });
     });
 });
-
-

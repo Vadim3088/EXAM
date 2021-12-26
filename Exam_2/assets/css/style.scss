@@ -400,17 +400,17 @@ img {
     }   
 }
 
-.works {
+.projects {
     padding: 10vh 0 15vh 0;
-    .container_works {
+    .container_projects {
         width: 90%;
         max-width: 1685px;
         margin: 0 auto;
         position: relative;
-        .bg_img_top_works {
+        .bg_img_top_projects {
             position: relative;
             top: 180px;            
-            .img_1_bg_left_top_part_works {
+            .img_1_bg_left_top_part_projects {
                 position: absolute;
                 z-index: 2;
                 left: 0;
@@ -421,17 +421,17 @@ img {
         .container { 
             width: 100%; 
             position: relative;
-            .content_works {
+            .content_projects {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                .text_works {
+                .text_projects {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
                     margin-bottom: 110px;
-                    .works_line {
+                    .projects_line {
                         border: 1px solid $color_black;
                         width: 90px;
                     }
@@ -440,12 +440,12 @@ img {
                         line-height: 120px;
                     }
                 }
-                .top_part_works {
+                .top_part_projects {
                     display: flex;
                     justify-content: space-between;
                     margin-bottom: 230px;
-                    .left_top_part_works {
-                        .img_1_left_top_part_works {
+                    .left_top_part_projects {
+                        .img_1_left_top_part_projects {
                             position: absolute;
                             left: 0;
                             z-index: 3;
@@ -454,14 +454,14 @@ img {
                             
                         }
                     }
-                    .right_top_part_works {
+                    .right_top_part_projects {
                         width: 40%;
                         display: flex;
                         flex-direction: column;
                         align-items: start;
                         justify-content: end;
                         margin-top: 90px;
-                        .first_p_works {
+                        .first_p_projects {
                             text-transform: uppercase;
                             font-weight: 400;
                             @include fz(22);
@@ -474,7 +474,7 @@ img {
                             text-align: left;
                             @include fz(42);
                         }
-                        .second_p_works {
+                        .second_p_projects {
                             font-family: 'Open Sans', sans-serif;
                             font-weight: 400;
                             @include fz(18);
@@ -483,7 +483,7 @@ img {
                             color: $color_black;
                             text-align: left;
                         }
-                        .btn_works {
+                        .btn_projects {
                             @include btn($color_white);
                             margin-bottom: 60px;
                         }
@@ -494,7 +494,7 @@ img {
                                 width: 15px;
                                 height: 15px;
                             }
-                            .third_p_works {
+                            .third_p_projects {
                                 font-family: 'Open Sans', sans-serif;
                                 font-weight: 500;
                                 font-style: italic;
@@ -505,17 +505,17 @@ img {
                         }
                     }
                 }
-                .bottom_part_works {
+                .bottom_part_projects {
                     display: flex;
                     justify-content: space-between;
-                    .left_bottom_part_works {
+                    .left_bottom_part_projects {
                         width: 40%;
                         display: flex;
                         flex-direction: column;
                         align-items: start;
                         justify-content: end;
                         margin-top: 90px;
-                        .first_p_works {
+                        .first_p_projects {
                             text-transform: uppercase;
                             font-weight: 400;
                             @include fz(22);
@@ -528,7 +528,7 @@ img {
                             text-align: left;
                             @include fz(42);
                         }
-                        .second_p_works {
+                        .second_p_projects {
                             font-family: 'Open Sans', sans-serif;
                             font-weight: 400;
                             @include fz(18);
@@ -536,7 +536,7 @@ img {
                             margin-bottom: 30px;
                             color: $color_black;  
                         }
-                        .btn_works {
+                        .btn_projects {
                             @include btn($color_white);
                             margin-bottom: 60px;
                             &:hover {
@@ -550,7 +550,7 @@ img {
                                 width: 15px;
                                 height: 15px;
                             }
-                            .third_p_works {
+                            .third_p_projects {
                                 font-family: 'Open Sans', sans-serif;
                                 font-weight: 500;
                                 font-style: italic;
@@ -560,9 +560,9 @@ img {
                             }
                         }
                     }
-                    .right_bottom_part_works {                
+                    .right_bottom_part_projects {                
                                     
-                        .img_2_bg_right_bottom_part_works {
+                        .img_2_bg_right_bottom_part_projects {
                             position: absolute;
                             right: 0;
                             z-index: 3;
@@ -576,9 +576,9 @@ img {
                 }
             }
         }
-        .bg_img_bottom_works {
+        .bg_img_bottom_projects {
             position: relative;                     
-            .img_2_bg_right_bottom_part_works {
+            .img_2_bg_right_bottom_part_projects {
                 position: absolute;
                 z-index: 2;
                 right: 0;
